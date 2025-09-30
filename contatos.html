@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos - Let it in peace</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="style2.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/clima.png">
+    <!--Trabalho feito por: Yuri Bermudes De Freitas ,Fernando Nunes Silvestre,Jhuan Pansutti Coelho,Alexandre Linhares Dias. -->
+</head>
+<body>
+    <!--Trabalho feito por: Yuri Bermudes De Freitas ,Fernando Nunes Silvestre,Jhuan Pansutti Coelho,Alexandre Linhares Dias. -->
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="inicio.html">
+                <img src="assets/Deixe_em_paz-removebg-preview.png" alt="Logo Let it in peace">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Tópico da semana</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Topicos.html">Tópicos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contatos.html">Contatos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Quiz.html">Quiz</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="container"> 
+        <h1>Formulário de Contato 🕿 </h1>
+        <form class="p-4 rounded shadow bg-white">
+            <fieldset>
+                <legend class="h5">Seus Dados</legend>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="Nome" class="form-label" style="color: red;">Nome Completo*:</label>
+                        <input type="text" id="Nome" class="form-control" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="Email" class="form-label" style="color: red;">E-mail*:</label>
+                        <input type="email" id="Email" class="form-control" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label for="telefone" class="form-label">Telefone:</label>
+                        <input type="tel" id="telefone" class="form-control" placeholder="(XX) XXXXX-XXXX">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="cidade" class="form-label">Cidade:</label>
+                        <input type="text" id="cidade" class="form-control">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="estado" class="form-label">Estado:</label>
+                        <select name="Estado" id="estado" class="form-select">
+                            <option value="acre">Acre</option>
+                            <option value="Alagoas">Alagoas</option>
+                            <option value="Amapá">Amapá</option>
+                            <option value="Amazonas">Amazonas</option>
+                            <option value="Bahia">Bahia</option>
+                            <option value="Ceará">Ceará</option>
+                            <option value="Distrito Federal">Distrito Federal</option>
+                            <option value="Espirito Santo">Espirito Santo</option>
+                            <option value="Goiás">Goiás</option>
+                            <option value="Maranhão">Maranhão</option>
+                            <option value="Mato Grosso">Mato Grosso</option>
+                            <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                            <option value="Minas Gerais">Minas Gerais</option>
+                            <option value="Pará">Pará</option>
+                            <option value="Paraiba">Paraiba</option>
+                            <option value="Paraná">Paraná</option>
+                            <option value="Pernanbuco">Pernanbuco</option>
+                            <option value="Piauí">Piauí</option>
+                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                            <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                            <option value="Rondônia">Rondônia</option>
+                            <option value="Roraima">Roraima</option>
+                            <option value="Santa Catarina">Santa Catarina</option>
+                            <option value="São Paulo">São Paulo</option>
+                            <option value="Sergipe">Sergipe</option>
+                            <option value="Tocantins">Tocantins</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset class="mt-4">
+                <legend class="h5">Sua mensagem</legend>
+                <div class="mb-3">
+                    <label for="Assunto" class="form-label" style="color: red;">Assunto*:</label>
+                    <select name="Assunto" id="Assunto" class="form-select" required>
+                        <option value="Selecione">Selecione</option>
+                        <option value="Dúvidas sobre gatos">Denunciar alguma fake news</option>
+                        <option value="Sugestão de conteúdo">Sugestão também de novos temas climáticos</option>
+                        <option value="Proposta de parceria">Algum tipo de divulgação ou parceria</option>
+                        <option value="Outro assunto">Outro assunto</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label" style="color: red;">Mensagem*:</label>
+                    <textarea id="mensagem" rows="5" class="form-control" maxlength="200" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="Destino de Interesse" class="form-label">Qual a sua opinião sobre o nosso <abbr title="Let it in peace">site</abbr>?</label>
+                    <input type="text" id="Destino de Interesse" class="form-control" placeholder="Digite aqui">
+                </div>
+            </fieldset>
+
+            <fieldset class="mt-4">
+                <legend class="h5">Arquivo e envio</legend>
+                <div class="mb-3">
+                    <label for="Arquivos" class="form-label">Enviar foto ou documento (opcional):</label>
+                    <input type="file" id="Arquivos" class="form-control">
+                </div>
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn btn-dark">Enviar Mensagem</button>
+                    <button type="reset" class="btn btn-secondary">Limpar Formulário</button>
+                </div>
+                <p class="mt-2"  style="color: red;"><small>Campos Obrigatórios*</small></p>
+            </fieldset>
+        </form>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2025 Let it in peace - Todos os direitos reservados</p>
+    <div>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.youtube.com" target="_blank">YouTube</a>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
